@@ -1,0 +1,181 @@
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .intro_div{
+     padding-left: 0.75rem;
+     justify-content: center;
+     align-items: center;
+     margin-top: 2rem;
+  }
+  .intro_title{
+     font-weight: 600;
+     font-size: 1.5rem;
+     line-height: 2rem;
+     margin: 0;
+  }
+  .intro_desc{
+    margin: 12px 8px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  img{
+    max-width: 100%;
+  }
+  
+
+  .boxinfo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .card{
+    margin: 16px 16px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 16px;
+    padding: 16px 20px;
+  }
+
+  .card_title {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: serif;
+  }
+  .midpart{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+  .mid_div{
+
+    padding-left: 0.75rem;
+     justify-content: center;
+     align-items: center;
+     margin-top: 2rem;
+  }
+  .mid_title{
+
+     font-weight: 600;
+     font-size: 1.5rem;
+     line-height: 2rem;
+     margin: 0;
+  }
+  .mid_decs{
+    margin: 12px 8px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .midcard{
+    justify-content: space-around;
+    align-items: center;
+
+  }
+  .from{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F6E0E6;
+    padding: 28px;
+    border-radius: 20px;
+  }
+  #email{
+  border-radius: 5px;
+  padding: 8px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  margin-right: 6px;
+  }
+  #button{
+  padding: 8px 15px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  border-radius: 5px;
+  margin: 8px 0;
+  background-color: #6B7280;
+  }
+.head{
+  max-width: 1200px;
+  background-color:#F6E0E6 ;
+}
+  nav {
+    top: 0;
+    left: 0;
+    background-color: #F6E0E6;
+    z-index: 99;
+  }
+  
+  .nav__content {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav .logo a {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:black;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  nav .logo a:hover {
+    color:#FC7B50;
+  }
+  
+  nav .checkbox {
+    display: none;
+  }
+  
+  nav input {
+    display: none;
+  }
+  nav .checkbox i {
+    font-size: 2rem;
+    color: #DFC5FE;
+    cursor: pointer;
+  }
+  
+  
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    transition: left 0.3s;
+  }
+  
+  ul li a {
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-weight: 600;
+    color: #1f2937;
+    transition: 0.3s;
+  }
+  
+  ul li a:hover {
+    border-top-color: #FC7B50;
+    border-bottom-color: #FC7B50;
+    color: #FC7B50;
+  }
+
+  .footer_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+
+  
